@@ -63,3 +63,56 @@ h1{
 #productext{
        display:none;
 }
+.col-md-3:hover{
+    background-color:white;
+    opacity:0.8;
+
+}
+#phide1{
+       display:none;
+       position:relative;
+     bottom:190px;
+     color:white;
+}
+#phide2{
+    display:none;
+    position:relative;
+  bottom:190px;
+  color:white;
+}
+#phide3{
+    display:none;
+    position:relative;
+  bottom:190px;
+  color:white;
+}
+#phide4{
+    display:none;
+    position:relative;
+  bottom:190px;
+  color:white;
+}
+#phide5{
+    display:none;
+    position:relative;
+  bottom:190px;
+  color:white;
+}
+#phide6{
+    display:none;
+    position:relative;
+  bottom:190px;
+  color:white;
+}
+#phide7{
+    display:none;
+    position:relative;
+  bottom:190px;
+  color:white;
+}
+#phide8{
+    display:none;
+    position:relative;
+  bottom:190px;
+  color:white;
+}

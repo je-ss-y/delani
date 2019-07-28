@@ -24,4 +24,60 @@ $(document).ready(function(){
         $("h6#productext").toggle();
         $("p#productext").toggle();
     })
+    $("#image1").mouseover(function(){
+        $("#phide1").show()
+
+    })
+    $("#image1").mouseleave(function(){
+        $("#phide1").hide()
+    })
+    $("#image2").mouseover(function(){
+        $("#phide2").show()
+
+    })
+    $("#image2").mouseleave(function(){
+        $("#phide2").hide()
+    })
+    $("#image3").mouseover(function(){
+        $("#phide3").show()
+
+    })
+    $("#image3").mouseleave(function(){
+        $("#phide3").hide()
+    })
+    $("#image4").mouseover(function(){
+        $("#phide4").show()
+
+    })
+    $("#image4").mouseleave(function(){
+        $("#phide4").hide()
+    })
+    $("#image5").mouseover(function(){
+        $("#phide5").show()
+
+    })
+    $("#image5").mouseleave(function(){
+        $("#phide5").hide()
+    })
+    $("#image6").mouseover(function(){
+        $("#phide6").show()
+
+    })
+    $("#image6").mouseleave(function(){
+        $("#phide6").hide()
+    })
+    $("#image7").mouseover(function(){
+        $("#phide7").show()
+
+    })
+    $("#image7").mouseleave(function(){
+        $("#phide7").hide()
+    })
+    $("#image8").mouseover(function(){
+        $("#phide8").show()
+
+    })
+    $("#image8").mouseleave(function(){
+        $("#phide8").hide()
+    })
 });

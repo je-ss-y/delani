@@ -7,6 +7,11 @@
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
 </head>
 <body>
     <div>
@@ -37,16 +42,30 @@
                 <h1>WHAT WE DO</h1>
                 <div class="dedepro">
                       <div id="design">
-                          <img src="https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/services_icons/design_icon.png" width="60px" height="60px">
-                          <h5>DESIGN</h5>
+                          <img src="https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/services_icons/design_icon.png" width="60px" height="60px" id="designimage">
+                          <h5 id="designimage">DESIGN</h5>
+                          <h6 id="designtext">design</h6>
+                          <p id="designtext">Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.
+                               Throughout your project, our designers create and implement visual design and workflows,
+                                solicit user feedback and work with you to make sure what gets built is what is needed.
+
+                            </p>
                       </div>
                       <div id="development">
-                        <img src="https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/services_icons/dev_icon.png" width="60px" height="60px">
-                        <h5>DEVELOPMENT</h5>
+                        <img src="https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/services_icons/dev_icon.png" width="60px" height="60px" id="developmentimage">
+                        <h5 id="developmentimage">DEVELOPMENT</h5>
+                        <h6 id="developmentext">development</h6>
+                        <p id="developmentext">All engineers are fluent in the latest enterprise, mobile and web development technologies.
+                             They collaborate with your team to write, and improve code on a daily basis,
+                              using proven practices such as test-driven development and pair programming.
+                            </p>
                       </div>
                      <div id="product">
-                        <img src="https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/services_icons/product_icon.png" width="60px" height="60px">
-                       <h5>PRODUCT MANAGEMENT</h5>
+                        <img src="https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/services_icons/product_icon.png" width="60px" height="60px" id="productimage">
+                       <h5 id="productimage">PRODUCT MANAGEMENT</h5>
+                       <h6 id="productext">product management</h6>
+                       <p id="productext">Planning and development is iterative. Because we are constantly coding and testing,
+                            the products we build are always ready to go live. This iterative process allows for changes as business requirements evolve.</p>
                     </div>
                 </div>
 
@@ -78,13 +97,13 @@
             </div>
             <div class="contactussection">
                 <h1>CONTACT US</h1>
-                <form>
-                    <div class="inputs">
+                <form id="lastform">
+                    
                             <div class="row">
                                <div class="col-md-4"><input type="text" value="Name" id="input1"></div>
-                               <div class="col-md-4"><input type="text" value="email" id="input2"></div>
+                               <div class="col-md-4"><input type="email" value="email" id="input2"></div>
                            </div>
-                  </div>
+        
 
                  <div class="commentplace">
                      <textarea name="comment" id="comment" cols="30" rows="10">Enter your text </textarea>

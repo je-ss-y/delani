@@ -53,3 +53,13 @@ h1{
         position: relative;
         bottom : -100px;
 }
+#designtext{
+          display:none;
+          text-align: center;
+}
+#developmentext{
+        display:none;
+}
+#productext{
+       display:none;
+}

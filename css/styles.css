@@ -66,35 +66,45 @@ h1{
     right: -90px;
     padding:15px;
 }
+#designtext{
+    display:none;
+    text-align: center;
+}
+#developmentext{
+  display:none;
+}
+#productext{
+ display:none;
+}
 .portfoliosectio{
       
-                 text-align:center
+                 text-align:center;
+                 height:400px;
                
 }
 
-#row1{
-     padding:2%;
+/* #row1{
+     padding:3%;
      justify-content: space-between;
 }
 #row2{
-     padding:2%;
+     padding:3%;
      justify-content: space-between;
+} */
+.row{
+      padding:3%;
+      justify-content:space-between;
+}
+h2{
+    position:relative;
+    text-align:center;
 }
 .iconsection{
         text-align:center;
         position: relative;
         bottom : -100px;
 }
-#designtext{
-          display:none;
-          text-align: center;
-}
-#developmentext{
-        display:none;
-}
-#productext{
-       display:none;
-}
+
 .col-md-3:hover{
     background-color:white;
     opacity:0.8;

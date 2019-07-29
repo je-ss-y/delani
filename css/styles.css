@@ -1,24 +1,34 @@
 @media only screen and (max-width: 600px){
     .col-md-3{ 
         width:25px;
+       
+    }
+    h1{
         color: #e6ffff;
     }
 }
-@media only screen and (min-width: 600px){
+/* @media only screen and (min-width: 600px){
     .col-md-3{
              width:50%;
     }
-}
+    h1{
+        color: #e6ffff;
+    }
+    
+} */
     @media only screen and (min-width: 992px){
         .col-md-3{
              width:75%;
         }
+        h1{
+            color:
+        }
  }
- @media only screen and (min-width: 1200px){
+ /* @media only screen and (min-width: 1200px){
      .col-md-3{
              width:100%;
      }
- }
+ } */
 body{
     font-family: 'Roboto', sans-serif;
 }

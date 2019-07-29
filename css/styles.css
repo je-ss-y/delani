@@ -57,26 +57,28 @@ h1{
                 text-align:center;
                 position:relative;
                 height:350px;
+                top:50px;
+}
+.dedepro{
+    display: flex;
+    justify-content:space-around;
+    position:relative;
+    right: -90px;
+    padding:15px;
 }
 .portfoliosectio{
       
                  text-align:center
                
 }
-.dedepro{
-         display: flex;
-         justify-content:space-around;
-         position:relative;
-         right: -90px;
-         padding:15px;
-}
+
 #row1{
-     padding:15%;
-     justify-content: space-around;
+     padding:2%;
+     justify-content: space-between;
 }
 #row2{
-     padding:15%;
-     justify-content: space-around;
+     padding:2%;
+     justify-content: space-between;
 }
 .iconsection{
         text-align:center;

@@ -92,13 +92,11 @@ h1{
      justify-content: space-between;
 } */
 .row{
-      padding:3%;
-      justify-content:space-between;
+      padding:2%;
+      justify-content:space-around;
+      text-align:center;
 }
-h2{
-    position:relative;
-    text-align:center;
-}
+
 .iconsection{
         text-align:center;
         position: relative;
@@ -113,48 +111,49 @@ h2{
 #phide1{
        display:none;
        position:relative;
-     bottom:190px;
+    /* text-align:center; */
+    bottom:110px;
      color:white;
 }
 #phide2{
     display:none;
     position:relative;
-  bottom:190px;
+  bottom:110px;
   color:white;
 }
 #phide3{
     display:none;
     position:relative;
-  bottom:190px;
+  bottom:110px;
   color:white;
 }
 #phide4{
     display:none;
     position:relative;
-  bottom:190px;
+  bottom:110px;
   color:white;
 }
 #phide5{
     display:none;
     position:relative;
-  bottom:190px;
+  bottom:110px;
   color:white;
 }
 #phide6{
     display:none;
     position:relative;
-  bottom:190px;
+  bottom:110px;
   color:white;
 }
 #phide7{
     display:none;
     position:relative;
-  bottom:190px;
+  bottom:110px;
   color:white;
 }
 #phide8{
     display:none;
     position:relative;
-  bottom:190px;
+  bottom:110px;
   color:white;
 }

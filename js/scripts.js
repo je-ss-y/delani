@@ -8,6 +8,10 @@ $(document).ready(function(){
         } else {
         alert(name + ",We have received your message.Thank you for reaching out us.");
         event.preventDefault();
+        $("input#input1").val('');
+        $("input#input2").val('');
+        $("textarea#comment").val('');
+        
     }
     });
     $("#design").click(function(){

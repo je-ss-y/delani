@@ -1,6 +1,7 @@
 @media only screen and (max-width: 600px){
     .col-md-3{ 
         width:25px;
+        color: #e6ffff;
     }
 }
 @media only screen and (min-width: 600px){

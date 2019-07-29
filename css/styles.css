@@ -80,6 +80,7 @@ h1{
       
                  text-align:center;
                  height:400px;
+                 width:300px;
                
 }
 
@@ -156,4 +157,37 @@ h1{
     position:relative;
   bottom:110px;
   color:white;
+}
+.inputrow{
+         position:relative;
+         display:flex;
+}
+#input1{
+       position:relative;
+       /* text-align:center; */
+       width:450px;
+       background-color:transparent;
+       border-bottom:1px solid white;
+       left:192px;
+      
+}
+#input2{
+    position:relative;
+    width:450px;
+    background-color:transparent;
+    border-bottom:1px solid white;
+    left:150px;
+}
+#comment{
+       background-color:transparent;
+       border-bottom: 1px solid white;
+       position:relative;
+       right:132px;
+       width:1012px;
+       height:200px;
+       top:50px;
+}
+.bg-success{
+           position:relative;
+           top:80px;
 }

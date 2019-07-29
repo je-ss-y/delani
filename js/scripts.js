@@ -1,10 +1,14 @@
 $(document).ready(function(){
-    $("#lastform").submit(function(event){
+    $("#inputform").submit(function(event){
         var name=$("input#input1").val();
         var email=$("input#input2").val();
         var outputarea=$("textarea#comment").val();
+        if((name==="")||(email==="")||(outputarea==="")){
+            alert("Please enter the required information")
+        } else {
         alert(name + ",We have received your message.Thank you for reaching out us.");
         event.preventDefault();
+    }
     });
     $("#design").click(function(){
         $("img#designimage").toggle();

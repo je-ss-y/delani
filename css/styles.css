@@ -13,14 +13,37 @@ h1{
      
       
 }
+#wordsforfirstimage{
+               position:relative;
+               top:189px;
+}
+#logoimage1{
+           position:relative;
+           top:100px;
+}
+#logoimage2{
+         position:relative;
+         top:260px;
+}
+.aboutsection{
+           height:300px;
+           text-align:center;
+           position:relative;
+           top:70px;
+}
 .servicesection{
            background-image:url("https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/backgrounds/s_image.jpg");
            background-size:cover;
            width:100%;
-           height:300px;
+           height:380px;
            color:white;
            text-align:center;
           
+}
+#servicesectionwords{
+                    position:relative;
+                    text-align:center;
+                    top:110px;
 }
 .contactussection{
                background-image: url("https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/backgrounds/c_image.jpg");
@@ -32,10 +55,17 @@ h1{
 }
 .whatwedosection{
                 text-align:center;
+                position:relative;
+                height:350px;
+}
+.portfoliosectio{
+      
+                 text-align:center
+               
 }
 .dedepro{
          display: flex;
-         justify-content:space-between;
+         justify-content:space-around;
          position:relative;
          right: -90px;
          padding:15px;
